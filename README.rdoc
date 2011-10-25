@@ -1,32 +1,32 @@
 = batman
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/ehowe/batman.git
 
 == DESCRIPTION:
 
-FIX (describe your package)
+* Not quite sure where I want to go with this, but its a Gem called Batman, that is going to have a tool belt, and eventually (I hope) and addon called Robin.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* No features? No problems!
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+* require 'batman'
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* Nothing to require yet
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* gem install batman
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2011 FIXME full name
+Copyright (c) 2011 Eugene Howe
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
