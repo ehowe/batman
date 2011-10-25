@@ -4,6 +4,7 @@ PostInstall.txt
 README.rdoc
 Rakefile
 lib/batman.rb
+lib/tool_belt.rb
 script/console
 script/destroy
 script/generate
