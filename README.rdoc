@@ -9,6 +9,8 @@
 * Commissionerd is going to be a notifications daemon that issues "batsignals" in the event of a security problem
 * Fox will be used to update the 3rd party security tools
 * Alfred will be used for UI related tasks
+* (Credit to jpaterni) TwoFace will be the name of the class that hooks all external security utilities
+* ToolBelt will be used for internal plugins
 
 == FEATURES/PROBLEMS:
 
