@@ -1,0 +1,6 @@
+--- 
+tcpip: true
+port: 4567
+socketfile: /tmp/commissioner.sock
+socket: false
+ip: 127.0.0.1
