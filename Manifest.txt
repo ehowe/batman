@@ -4,7 +4,9 @@ PostInstall.txt
 README.rdoc
 Rakefile
 lib/batman.rb
+lib/commissionerd.rb
 lib/tool_belt.rb
+lib/config/commissionerd.yml
 script/console
 script/destroy
 script/generate
