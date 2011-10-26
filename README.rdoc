@@ -4,7 +4,11 @@
 
 == DESCRIPTION:
 
-* Not quite sure where I want to go with this, but its a Gem called Batman, that is going to have a tool belt, and eventually (I hope) and addon called Robin.
+* Thanks to twichert and zombo, I think I know where I want to go with this.  Security tools suite.  
+* Robin is going to be a binary to execute different functions
+* Commissionerd is going to be a notifications daemon that issues "batsignals" in the event of a security problem
+* Fox will be used to update the 3rd party security tools
+* Alfred will be used for UI related tasks
 
 == FEATURES/PROBLEMS:
 
