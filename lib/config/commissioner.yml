@@ -1,0 +1,4 @@
+socket_type: unix
+socket_path: /tmp/commissioner.sock
+socket_ip: 127.0.0.1
+socket_port: 4567

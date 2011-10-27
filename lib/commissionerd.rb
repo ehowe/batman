@@ -20,10 +20,20 @@ class Commissionerd
   def server_loop
     loop do
       begin
-        Thread.start(@server.accept) do |s|
-          print(s, " is accepted\n")
-          s.write(Time.now)
-          print(s," is gone\n")
+        client = @server.accept
+        Thread.start(client.read) do |s|
+          error = s
+          case error
+            when /^\[NOTICE\]/
+              error = notice(error)
+            when /^\[WARNING\]/
+              error = warning(error)
+            when /^\[CRITICAL\]/
+              error = critical(error)
+            else
+              s.close
+          end
+          print(error, "\n")
           s.close
         end
       rescue SystemExit, Interrupt, IRB::Abort
@@ -33,6 +43,18 @@ class Commissionerd
         exit!
       end
     end
+  end
+
+  def alert(alert_string)
+    return "Alert received"
+  end
+
+  def warning(warning_string)
+    return "Warning received"
+  end
+
+  def critical(critical_string)
+    return "Critical received"
   end
 
   def update_config
